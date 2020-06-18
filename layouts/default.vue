@@ -11,6 +11,10 @@
   height: 100%;
   border: 1px solid red; /* чтобы видеть границы*/
   border-radius: 8px;
+  font-family: 'Open Sans', 'Lato', 'Arial', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
 }
 
 .page_theme_light {
