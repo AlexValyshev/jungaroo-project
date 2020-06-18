@@ -1,7 +1,7 @@
 <template>
   <div class="card card_theme_light">
     <div class="card__container">
-      <h2 class="card__heading card__heading_theme_light">Nulla volutpat aliquam velit</h2>
+      <h3 class="card__heading card__heading_theme_light">Nulla volutpat aliquam velit</h3>
       <p class="card__text card__text_theme_light">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat ar ..</p>
       <div class="card__tag-container">
