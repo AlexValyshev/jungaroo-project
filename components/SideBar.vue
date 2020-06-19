@@ -1,6 +1,6 @@
 <template>
   <section class="sidebar sidebar_theme_light">
-    <nuxt-link class="sidebar__link" to="/" autofocus>
+    <nuxt-link class="sidebar__link" to="/" exact>
       <div class="sidebar__main" >
         <div class="sidebar__lighting"></div>
         <svg class="sidebar__svg" width="34" height="35" fill="#C5CACD" xmlns="http://www.w3.org/2000/svg">
@@ -44,16 +44,12 @@
   box-shadow: 4px 0px 7px rgba(0, 0, 0, 0.1);
 }
 
-.sidebar__link:focus .sidebar__lighting {
+.nuxt-link-active .sidebar__lighting{
   background: #3591fb;
 }
 
-.sidebar__link:focus .sidebar__svg {
+.nuxt-link-active .sidebar__svg {
   fill: #3591fb;
-}
-
-.sidebar__link {
-
 }
 
 .sidebar__main {
