@@ -24,6 +24,7 @@ export default {
   grid-column-gap: 12px;
   max-width: 1076px;
   margin: auto;
+  padding-left: 72px;
 }
 </style>
 
