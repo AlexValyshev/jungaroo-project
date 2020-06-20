@@ -1,18 +1,20 @@
 <template>
-    <section  class="columns">
-      <Card />
-      <Card />
-      <Card />
-    </section>
-
+  <section class="columns">
+    <TitleColumn />
+    <Card />
+    <Card />
+    <Card />
+  </section>
 </template>
 
 <script>
 import Card from "~/components/Card.vue";
+import TitleColumn from "~/components/TitleColumn.vue";
 
 export default {
   components: {
-    Card
+    Card,
+    TitleColumn
   }
 };
 </script>
