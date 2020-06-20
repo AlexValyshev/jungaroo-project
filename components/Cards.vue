@@ -6,6 +6,7 @@
     <Card></Card>
     <Card></Card>
     <Card></Card>
+    <Card></Card>
   </div>
 </template>
 
@@ -27,6 +28,7 @@ export default {
   display: grid;
   grid-template-rows: repeat(3, 1fr);
   grid-row-gap: 20px;
-  padding: 10px 0 12px 10px;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 </style>

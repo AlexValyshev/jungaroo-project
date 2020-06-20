@@ -1,29 +1,17 @@
 <template>
-  <section class="columns">
-    <Column></Column>
-    <Column></Column>
-    <Column></Column>
-  </section>
+  <Columns></Columns>
 </template>
 
 <script>
-import Column from "~/components/Column.vue";
+import Columns from "~/components/Columns.vue";
 
 export default {
   components: {
-    Column
+    Columns
   }
 };
 </script>
 
 <style>
-.columns {
-  border: 1px solid blue;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 12px;
-  max-width: 1076px;
-  margin: auto;
-}
 </style>
 
