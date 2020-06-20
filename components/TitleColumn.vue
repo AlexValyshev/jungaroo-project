@@ -7,7 +7,6 @@
 
 <style>
 .titlecolumn {
-  border: 1px solid red;
   max-width: 310px;
   font-family: "Open Sans", "Arial", sans-serif;
   font-style: normal;
@@ -15,6 +14,6 @@
   font-size: 24px;
   line-height: 33px;
   color: #272a43;
-  margin-bottom: 20px;
+  margin: 0 0 20px;
 }
 </style>

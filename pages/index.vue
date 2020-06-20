@@ -1,27 +1,29 @@
 <template>
   <section class="columns">
-    <TitleColumn />
-    <Card />
-    <Card />
-    <Card />
+    <Column></Column>
+    <Column></Column>
+    <Column></Column>
   </section>
 </template>
 
 <script>
-import Card from "~/components/Card.vue";
-import TitleColumn from "~/components/TitleColumn.vue";
+import Column from "~/components/Column.vue";
 
 export default {
   components: {
-    Card,
-    TitleColumn
+    Column
   }
 };
 </script>
 
 <style>
 .columns {
-  border: 1px solid red;
+  border: 1px solid blue;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 12px;
+  max-width: 1076px;
+  margin: auto;
 }
 </style>
 
