@@ -9,8 +9,10 @@ font-style: normal;
 font-weight: 600;
 font-size: 28px;
 line-height: 38px;
-color: black;
-text-align: center;
-margin: 13px 0 16px 0;
 }
+
+.header__heading_theme_ligth {
+  color: black;
+}
+
 </style>

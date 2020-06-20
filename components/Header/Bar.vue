@@ -6,7 +6,10 @@
 .header__bar {
   width: 3px;
   height: 36px;
-  margin: 16px 15px 16px 0;
+
+}
+.header__bar_theme_ligth {
   background: #F7F8F9;
 }
+
 </style>
