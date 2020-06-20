@@ -19,6 +19,7 @@ export default {
 
 <style>
 .columns {
+  padding-left: 72px;
   border: 1px solid red;
 }
 </style>
