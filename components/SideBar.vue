@@ -1,17 +1,14 @@
 <template>
   <section class="sidebar sidebar_theme_light">
-    <nuxt-link class="sidebar__link" to="/" exact>
-      <div class="sidebar__main" >
+    <nuxt-link class="sidebar__main" to="/" exact>
         <div class="sidebar__lighting"></div>
         <svg class="sidebar__svg" width="34" height="35" fill="#C5CACD" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd" clip-rule="evenodd"
             d="M17.985 17.063V.984A.98.98 0 0017 0a.98.98 0 00-.985.984v16.079A5.006 5.006 0 0012 21.96c0 2.42 1.73 4.438 4.015 4.898v7.157A.98.98 0 0017 35a.98.98 0 00.985-.984v-7.157A5.006 5.006 0 0022 21.96a5.005 5.005 0 00-4.015-4.898zM17 24.985a3.029 3.029 0 01-3.03-3.024 3.029 3.029 0 016.06 0A3.029 3.029 0 0117 24.985zM5.985 8.812V.984A.98.98 0 005 0a.98.98 0 00-.985.984v7.828A5.006 5.006 0 000 13.71c0 2.42 1.73 4.439 4.015 4.898v15.408A.98.98 0 005 35a.98.98 0 00.985-.984V18.601A5.006 5.006 0 0010 13.703c0-2.42-1.73-4.432-4.015-4.891zM5 16.735a3.029 3.029 0 01-3.03-3.025 3.029 3.029 0 016.06 0A3.034 3.034 0 015 16.735zM29.985 8.81V.984A.98.98 0 0029 0a.98.98 0 00-.985.984V8.81A5.005 5.005 0 0024 13.707c0 2.42 1.73 4.438 4.015 4.897v15.412A.98.98 0 0029 35a.98.98 0 00.985-.984v-15.42A5.005 5.005 0 0034 13.7a4.99 4.99 0 00-4.015-4.89zM29 16.731a3.029 3.029 0 01-3.03-3.024A3.029 3.029 0 0129 10.683a3.029 3.029 0 013.03 3.024A3.029 3.029 0 0129 16.731z"/>
         </svg>
-      </div>
     </nuxt-link>
 
-    <nuxt-link class="sidebar__link" to="/stats">
-      <div class="sidebar__stats">
+    <nuxt-link class="sidebar__stats" to="/stats">
         <div class="sidebar__lighting"></div>
         <svg class="sidebar__svg" width="36" height="36" xmlns="http://www.w3.org/2000/svg" fill="#C5CACD">
           <path fill-rule="evenodd" clip-rule="evenodd"
@@ -19,7 +16,6 @@
           <path fill-rule="evenodd" clip-rule="evenodd"
             d="M34.945 33.89H2.11V1.056a1.055 1.055 0 00-2.109 0v33.89C0 35.528.472 36 1.055 36h33.89a1.055 1.055 0 100-2.11z"/>
         </svg>
-      </div>
     </nuxt-link>
   </section>
 </template>
