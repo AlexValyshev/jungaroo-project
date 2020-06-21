@@ -8,7 +8,6 @@
 
 <script>
 import Column from "~/components/Column.vue";
-
 export default {
   components: {
     Column
@@ -27,4 +26,3 @@ export default {
   padding-left: 72px;
 }
 </style>
-
