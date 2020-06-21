@@ -1,12 +1,16 @@
 <template>
-  <Columns></Columns>
+  <section class="columns">
+    <Column></Column>
+    <Column></Column>
+    <Column></Column>
+  </section>
 </template>
 
 <script>
-import Columns from "~/components/Columns.vue";
+import Column from "~/components/Column.vue";
 export default {
   components: {
-    Columns
+    Column
   }
 };
 </script>
@@ -19,6 +23,5 @@ export default {
   grid-column-gap: 12px;
   max-width: 1076px;
   margin: auto;
-  padding-left: 72px;
 }
 </style>
