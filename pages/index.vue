@@ -8,11 +8,9 @@
 </template>
 
 <script>
-import Header from '~/components/Header/Header.vue'
 import Card from "~/components/Card.vue";
 export default {
   components: {
-    Header,
     Card
   }
 };

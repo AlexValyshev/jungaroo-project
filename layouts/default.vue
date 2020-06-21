@@ -17,10 +17,9 @@ export default {
 };
 </script>
 
-<<<<<<
 <style>
 .page {
- width: 100%;
+  width: 100%;
   height: 100%;
   border: 1px solid red; /* чтобы видеть границы*/
   border-radius: 8px;

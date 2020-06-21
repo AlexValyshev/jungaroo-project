@@ -1,15 +1,15 @@
 <template>
 <header class="header header_theme_ligth">
-  <Logo class="header__logo_position" />
-  <Bar class="header__bar_position" />
-  <Heading class="header__heading_position" />
-  <AddButton class="header__add-butoon_position" />
-  <SearchButton class="header__search-button_position" />
-  <SearchInput class="header__search-input_position" />
-  <Bell class="header__bell_position" />
-  <Bar class="header__bar-two_position" />
-  <Avatar class="header__avatar_position" />
-  <AvatarName class="header__avatar-name_position" />
+  <Logo class="header__logo-position" />
+  <Bar class="header__bar-position" />
+  <Heading class="header__heading-position" />
+  <AddButton class="header__addbutoon-position" />
+  <SearchButton class="header__searchbutton-position" />
+  <SearchInput class="header__searchinput-position" />
+  <Bell class="header__bell-position" />
+  <Bar class="header__bartwo-position" />
+  <Avatar class="header__avatar-position" />
+  <AvatarName class="header__avatarname-position" />
 
 </header>
 </template>
@@ -48,6 +48,7 @@ export default {
   max-width: 100%;
   height: 68px;
   margin: 0 auto;
+  padding-left: 36px;
   display: flex;
   align-items: center;
   border-radius: 8px 8px 0px 0px;
@@ -58,43 +59,43 @@ export default {
   box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.1);
 }
 
-.header__logo_position {
-  margin: auto 36px;
+.header__logo-position {
+  margin-right:  36px;
 }
 
-.header__bar_position {
-  margin: auto 15px auto 0;
+.header__bar-position {
+  margin-right:  15px;
 }
 
-.header__heading_position {
-  margin: auto 10px auto 0;
+.header__heading-position {
+  margin-right: 10px;
 }
 
-.header__add-butoon_position {
-  margin: auto 346px auto 0;
+.header__addbutoon-position {
+  margin-right: 346px;
 }
 
-.header__search-button_position {
-  margin: auto 16px auto 0;
+.header__searchbutton-position {
+  margin-right: 16px;
 }
 
-.header__search-input_position {
-  margin: auto 150px auto 0;
+.header__searchinput-position {
+  margin-right: 150px;
 
 }
 
-.header__bell_position {
-  margin: auto 28px auto 0;
+.header__bell-position {
+  margin-right: 28px;
 }
 
-.header__bar-two_position {
-  margin: auto 28px auto 0;
+.header__bartwo-position {
+  margin-right: 28px;
 }
-.header__avatar_position {
-  margin: auto 16px auto 0;
+.header__avatar-position {
+  margin-right: 16px;
 }
 
-.header__avatar-name_position {
-  margin: auto 32px auto 0;
+.header__avatarname-position {
+  margin-right: 32px;
 }
 </style>
