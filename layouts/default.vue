@@ -1,24 +1,26 @@
 <template>
   <div class="page page_theme_light">
-    <header class="header">this is header</header>
+    <Header />
     <SideBar class="sidebar"/>
     <nuxt/>
   </div>
 </template>
 
 <script>
+import Header from '~/components/Header/Header.vue';
 import SideBar from "~/components/SideBar.vue";
-
 export default {
   components: {
+    Header,
     SideBar
   }
 };
 </script>
 
+<<<<<<
 <style>
 .page {
-  width: 100%;
+ width: 100%;
   height: 100%;
   border: 1px solid red; /* чтобы видеть границы*/
   border-radius: 8px;
@@ -45,4 +47,3 @@ export default {
   left: 0;
 }
 </style>
-
