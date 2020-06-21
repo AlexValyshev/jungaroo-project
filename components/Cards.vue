@@ -1,5 +1,5 @@
 <template>
-  <div class="cards">
+  <div class="cards cards__background">
     <Card></Card>
     <Card></Card>
     <Card></Card>
@@ -12,9 +12,11 @@
 
 <script>
 import Card from "~/components/Card.vue";
+import Cards__background from "~/components/Cards__background.vue";
 export default {
   components: {
-    Card
+    Card,
+    Cards__background
   }
 };
 </script>
@@ -24,7 +26,6 @@ export default {
   width: 100%;
   height: 536px;
   overflow-y: auto;
-  background: #c4c4c4;
   display: grid;
   grid-template-rows: repeat(3, 1fr);
   grid-row-gap: 20px;
