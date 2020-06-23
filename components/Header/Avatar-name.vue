@@ -7,6 +7,7 @@
   width: 108px;
   height: 20px;
   text-decoration: none;
+  text-align: center;
   font-family: 'Open Sans', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -15,6 +16,7 @@
   transition: .3s;
   cursor: pointer;
 }
+
 .header__avatar-name:hover {
   opacity: .6;
 }
