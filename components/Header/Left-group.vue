@@ -29,23 +29,20 @@ export default {
 
 <style>
 .header__left-group {
-  width: 50%;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-
 }
 
 .header__logo_position {
-  margin: auto 36px;
+  margin-right: 36px;
 }
 
 .header__bar_position {
-  margin: auto 15px auto 0;
+  margin-right: 15px;
 }
 
 .header__heading_position {
-  margin: auto 10px auto 0;
+  margin: 0 21px 0 0;
 }
 
 </style>

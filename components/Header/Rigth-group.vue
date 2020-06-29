@@ -34,34 +34,32 @@ export default {
 
 <style>
 .header__rigth-group {
-  width: 50%;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
 }
 
 .header__search-button_position {
-  margin: auto 16px auto 55px;
+  margin-right: 16px;
 }
 
 .header__search-input_position {
-  margin: auto auto auto 0;
+  margin-right: 150px;
 
 }
 
 .header__bell_position {
-  margin: auto 28px auto 0;
+  margin-right: 28px;
 }
 
 .header__bar-two_position {
-  margin: auto 28px auto 0;
+  margin-right: 28px;
 }
 
 .header__avatar_position {
-  margin: auto 16px auto 0;
+  margin-right: 16px;
 }
 
 .header__avatar-name_position {
-  margin: auto 32px auto 0;
+  margin-right: 32px;
 }
 </style>

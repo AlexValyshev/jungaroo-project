@@ -22,7 +22,6 @@
   max-width: 311px;
   width: 100%;
   padding: 16px 0;
-  border: 1px solid blue;
   border-radius: 2px;
   display: flex;
 }

@@ -32,7 +32,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 1px solid green;
   border-radius: 8px 0px 0px 8px;
 }
 .sidebar_theme_light {

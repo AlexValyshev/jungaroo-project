@@ -1,6 +1,6 @@
 <template>
   <div class="column">
-    <TitleColumn></TitleColumn>
+    <TitleColumn class="column__title"></TitleColumn>
     <Cards></Cards>
   </div>
 </template>
@@ -18,6 +18,10 @@ export default {
 
 <style>
 .column {
-  max-width: 336px;
+  max-width: 339px;
+}
+
+.column__title {
+  margin-bottom: 20px;
 }
 </style>

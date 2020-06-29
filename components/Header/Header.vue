@@ -24,7 +24,7 @@ export default {
   padding-left: 36px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   border-radius: 8px 8px 0px 0px;
 }
 
