@@ -5,6 +5,7 @@
     <Card></Card>
     <Card></Card>
     <Card></Card>
+    <Card></Card>
   </div>
 </template>
 
@@ -20,15 +21,14 @@ export default {
 <style>
 .cards {
   width: 100%;
-  height: calc(100vh - 173px);
+  max-height: calc(100vh - 173px);
   box-sizing: border-box;
   padding-top: 10px;
   padding-left: 10px;
-  padding-bottom: 30px;
-  overflow-y: scroll;
+  overflow-y: auto;
   background: #c4c4c4;
   display: grid;
-  grid-template-rows: repeat(auto-fit, minmax(158px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(158px, auto));
   grid-row-gap: 20px;
 
 }

@@ -26,6 +26,10 @@
   display: flex;
 }
 
+.card:last-child {
+  margin-bottom: 12px;
+}
+
 .card_theme_light {
   background: #FFFFFF;
   box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.227355);
