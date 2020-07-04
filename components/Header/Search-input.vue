@@ -1,7 +1,6 @@
 <template>
 <form class="header__search-form" name="search-form">
   <input type="text" placeholder="Search for .." name="search-inpute" class="header__search-input header__search-input_theme_ligth ">
-  </input>
 </form>
 </template>
 
@@ -21,7 +20,6 @@
   font-weight: normal;
   font-size: 15px;
   line-height: 20px;
-  outline: none;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -29,6 +27,5 @@
 
 .header__search-form_theme_ligth {
   color: #C5CACD;
-  white-space: nowrap;
 }
 </style>
