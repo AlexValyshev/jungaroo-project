@@ -22,10 +22,6 @@
   outline: none;
 }
 
-.header__search-button:hover {
-  opacity: .6;
-}
-
 .header__search-button_theme_ligth {
   background-color: rgba(0, 50, 50, 0);
 }

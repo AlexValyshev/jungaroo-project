@@ -3,6 +3,8 @@
     <Column></Column>
     <Column></Column>
     <Column></Column>
+    <Column></Column>
+    <Column></Column>
   </section>
 </template>
 
@@ -17,11 +19,15 @@ export default {
 
 <style>
 .columns {
-  border: 1px solid blue;
+  height: calc(100vh - 68px);
+  padding-left: 106px;
+  padding-top: 34px;
+  box-sizing: border-box;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-columns: repeat(auto-fit, fit-content(339px)); */
+  grid-auto-flow: column;
+  grid-auto-columns: 339px;
   grid-column-gap: 12px;
-  max-width: 1076px;
-  margin: auto;
+  overflow-x: auto;
 }
 </style>

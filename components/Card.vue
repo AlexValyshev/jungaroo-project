@@ -22,9 +22,12 @@
   max-width: 311px;
   width: 100%;
   padding: 16px 0;
-  border: 1px solid blue;
   border-radius: 2px;
   display: flex;
+}
+
+.card:last-child {
+  margin-bottom: 12px;
 }
 
 .card_theme_light {
