@@ -15,8 +15,6 @@ export default {
     Header
   }
 };
-
-
 </script>
 
 <style>
@@ -47,6 +45,5 @@ export default {
   position: absolute;
   top: 0;
   left: 0;
-}
-
+{
 </style>
