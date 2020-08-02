@@ -31,6 +31,7 @@
   justify-content: center;
   border-radius: 8px 0px 0px 8px;
   grid-area: sidebar;
+  z-index: 1;
 }
 
 .sidebar_theme_light {
