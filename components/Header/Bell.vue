@@ -1,8 +1,8 @@
 <template>
-<a class="header__bell-container" href='/'>
+<nuxt-link class="header__bell-container" to=''>
   <img class="header__bell header__bell_theme_ligth" src="~/assets/images/bell.svg" alt="Оповещение">
   <div class="header__bell-ring header__bell-ring_theme_ligth"></div>
-</a>
+</nuxt-link>
 </template>
 
 <style>
