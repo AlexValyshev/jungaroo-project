@@ -15,14 +15,12 @@ export default {
     Header
   }
 };
+
 </script>
 
 <style>
 .page {
   display: grid;
-  grid-template-areas:
-    "header header"
-    "sidebar .";
   width: 100%;
   height: 100%;
   border-radius: 8px;
@@ -45,5 +43,5 @@ export default {
   position: absolute;
   top: 0;
   left: 0;
-{
+}
 </style>

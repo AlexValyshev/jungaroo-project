@@ -1,8 +1,15 @@
 <template>
-  <h2 class="title title_theme_light">Заголовок</h2>
+  <h2 class="title title_theme_light">{{name}}</h2>
 </template>
 
 <script>
+export default {
+  props: {
+    name: {
+      type: String
+    },
+  },
+};
 </script>
 
 <style>
@@ -13,6 +20,7 @@
   font-size: 24px;
   line-height: 33px;
   margin: 0;
+  margin-bottom: 20px;
 }
 
 .title_theme_light {

@@ -1,7 +1,7 @@
 <template>
   <div class="column">
-    <TitleColumn class="column__title"></TitleColumn>
-    <Cards></Cards>
+    <TitleColumn name="name Column" />
+    <Cards />
   </div>
 </template>
 
@@ -19,9 +19,7 @@ export default {
 <style>
 .column {
   max-width: 339px;
+  width: 100%;
 }
 
-.column__title {
-  margin-bottom: 20px;
-}
 </style>

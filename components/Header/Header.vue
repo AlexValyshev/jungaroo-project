@@ -24,11 +24,8 @@ export default {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-radius: 8px 8px 0px 0px;
-  grid-area: header;
   box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.1);
   border-radius: 8px 8px 0px 0px;
-  z-index: 1;
 }
 
 .header_theme_ligth {
