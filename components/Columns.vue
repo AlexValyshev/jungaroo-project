@@ -29,7 +29,7 @@ export default {
   grid-template-columns: repeat(auto-fit, fit-content(339px));
   grid-auto-flow: column;
   grid-auto-columns: 339px;
-  grid-column-gap: 12px;
+  column-gap: 12px;
   overflow-x: auto;
   grid-area: columns;
 }

@@ -1,7 +1,7 @@
 <template>
-<a class="header__logo " href='/'>
+<nuxt-link class="header__logo " to='/'>
   <img class="header__logo-image header__logo-image_theme_ligth" src="~/assets/images/logo.svg" alt="Логотип Jungaroo">
-</a>
+</nuxt-link>
 </template>
 
 <style>
