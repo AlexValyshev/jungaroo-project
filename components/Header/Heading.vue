@@ -4,15 +4,14 @@
 
 <style>
 .header__heading {
-font-family: 'Open Sans', 'Arial', sans-serif;
-font-style: normal;
-font-weight: 600;
-font-size: 28px;
-line-height: 38px;
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
 }
 
 .header__heading_theme_ligth {
   color: black;
 }
-
 </style>

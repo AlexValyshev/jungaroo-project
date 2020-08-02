@@ -1,16 +1,28 @@
 <template>
-  <div class="page page_theme_light">
-    <nuxt/>
-  </div>
+<div class="page page_theme_light">
+  <Header></Header>
+  <SideBar></SideBar>
+  <nuxt />
+</div>
 </template>
 
 <script>
-
-
+import Header from "~/components/Header/Header.vue";
+import SideBar from "~/components/SideBar.vue";
+export default {
+  components: {
+    Header,
+    SideBar
+  }
+};
 </script>
 
 <style>
 .page {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "sidebar .";
   width: 100%;
   height: 100%;
   border-radius: 8px;
@@ -24,5 +36,4 @@
   background: #f7f8f9;
   box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.2);
 }
-
 </style>
