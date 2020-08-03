@@ -24,14 +24,13 @@
 <style>
 .sidebar {
   max-width: 72px;
-  height: calc(100vh - 72px);
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   border-radius: 8px 0px 0px 8px;
-  grid-area: sidebar;
-  z-index: 1;
 }
 
 .sidebar_theme_light {
