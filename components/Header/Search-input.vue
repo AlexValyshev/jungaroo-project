@@ -5,6 +5,21 @@
 </template>
 
 <style>
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('~assets/fonts/OpenSans-Regular.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('~assets/fonts/Lato-Black.ttf') format('ttf');
+}
+
 .header__search-form {
   width: 84px;
   height: 20px;
@@ -15,7 +30,7 @@
   width: 100%;
   height: 100%;
   border: none;
-  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-family: 'Open Sans', 'Lato', 'Arial', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;

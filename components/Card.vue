@@ -33,6 +33,22 @@ export default {
 </script>
 
 <style>
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('~assets/fonts/OpenSans-Regular.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('~assets/fonts/Lato-Black.ttf') format('ttf');
+}
+
 .card {
   max-width: 311px;
   box-sizing: border-box;
@@ -59,7 +75,7 @@ export default {
 .card__heading {
   margin: 0;
   margin-bottom: 12px;
-  font-family: "Open Sans", "Arial", sans-serif;
+  font-family: 'Open Sans', 'Lato', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -73,14 +89,11 @@ export default {
 .card__text {
   margin: 0;
   margin-bottom: 16px;
-  font-family: "Open Sans", "Arial", sans-serif;
+  font-family: 'Open Sans', 'Lato', 'Arial', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  /* text-overflow: ellipsis; */
-  /* white-space: nowrap; */
-  /* overflow: hidden; */
 }
 
 .card__text_theme_light {
@@ -107,7 +120,7 @@ export default {
 
 .card__user {
   margin: 0;
-  font-family: "Lato", "Arial", sans-serif;
+  font-family: 'Open Sans', 'Lato', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 10px;
@@ -120,7 +133,7 @@ export default {
 
 .card__tag {
   margin: 0;
-  font-family: "Open Sans", "Arial", sans-serif;
+  font-family: 'Open Sans', 'Lato', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
