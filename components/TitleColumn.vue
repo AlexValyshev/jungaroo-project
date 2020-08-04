@@ -13,8 +13,23 @@ export default {
 </script>
 
 <style>
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('~assets/fonts/OpenSans-Regular.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('~assets/fonts/Lato-Black.ttf') format('ttf');
+}
+
 .title {
-  font-family: "Open Sans", "Arial", sans-serif;
+  font-family: 'Open Sans', 'Lato', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
