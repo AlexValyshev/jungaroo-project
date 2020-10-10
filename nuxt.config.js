@@ -14,9 +14,8 @@ module.exports = {
     ]
   },
   css: [
-      '~/assets/css/fonts.css',
-      '~/assets/css/normalize.css',
-      '~/assets/css/main.css'
+    '~/assets/css/fonts.css',
+    '~/assets/css/normalize.css'
   ],
   /*
   ** Customize the progress bar color
@@ -29,16 +28,16 @@ module.exports = {
     /*
     ** Run ESLint on save
     */
-    extend (config, { isDev, isClient }) {
+    extend(config, { isDev, isClient }) {
       // if (isDev && isClient) {
-        // config.module.rules.push({
-        //   enforce: 'pre',
-        //   test: /\.(js|vue)$/,
-        //   loader: 'eslint-loader',
-        //   exclude: /(node_modules)/
-        // })
+      // config.module.rules.push({
+      //   enforce: 'pre',
+      //   test: /\.(js|vue)$/,
+      //   loader: 'eslint-loader',
+      //   exclude: /(node_modules)/
+      // })
       // }
     }
-  }
+  },
 }
 

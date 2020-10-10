@@ -1,21 +1,62 @@
 <template>
   <div class="page page_theme_light">
-    <header>this is header</header>
+    <Header class="header"/>
+    <SideBar class="sidebar"/>
     <nuxt/>
   </div>
 </template>
 
+<script>
+import Header from "~/components/Header/Header.vue"
+import SideBar from "~/components/SideBar.vue";
+export default {
+  components: {
+    SideBar,
+    Header
+  }
+};
+
+</script>
+
 <style>
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('~assets/fonts/OpenSans-Regular.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('~assets/fonts/Lato-Black.ttf') format('ttf');
+}
+
 .page {
+  display: grid;
   width: 100%;
   height: 100%;
-  border: 1px solid red; /* чтобы видеть границы*/
   border-radius: 8px;
+  font-family: 'Open Sans', 'Lato', 'Arial', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
 }
 
 .page_theme_light {
   background: #f7f8f9;
   box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.2);
 }
-</style>
 
+.header {
+  position: relative;
+  z-index: 1;
+}
+.sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+</style>
